@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>TO‘GARAK — Davomat</title>
+<meta name="theme-color" content="#0f1115">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="ASSETS/icons/icon-192.png">
+<link rel="apple-touch-icon" href="ASSETS/icons/icon-192.png">
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<header class="top">
+  <div><div class="brand">TO‘GARAK</div><div class="sub" id="hello"></div></div>
+  <select id="yearSel" aria-label="Yil"></select>
+</header>
+<main id="view"></main>
+<nav class="nav" id="nav">
+  <button data-v="dash" class="on"><i>◉</i>Bosh sahifa</button>
+  <button data-v="cal"><i>▦</i>Kalendar</button>
+  <button data-v="stats"><i>▮</i>Statistika</button>
+  <button data-v="set"><i>⚙</i>Sozlamalar</button>
+</nav>
+<dialog id="dlg"></dialog>
+<div id="toast"></div>
+<script src="JS/app.js"></script>
+</body>
+</html>
